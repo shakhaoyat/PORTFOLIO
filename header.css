@@ -49,6 +49,26 @@
     border-bottom: 1px solid var(--font-primary-color );
 }
 
+
+
+.banner-profile-desc{
+
+     display: flex;
+     flex-direction:  row;
+     justify-content: end;
+     font-size: 40px;
+}
+
+.work-icon-container{
+
+    display: flex;
+}
+.check-icon{
+    width: 20px;
+    height: 20px;
+}
+
+
 .banner-image-container{
     background-color: var(--font-primary-color);
     width: fit-content;
@@ -56,13 +76,6 @@
 
 
 
-}
-.banner-profile-desc{
-
-     display: flex;
-     flex-direction:  column;
-     justify-content: end;
-     font-size: 40px;
 }
 
 #banner-image{
