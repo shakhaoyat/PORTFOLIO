@@ -1,0 +1,82 @@
+
+.header-container {
+    height: 100vh;
+    
+    background-image: url('./image/banner/banner-bg\ .png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--font-primary-color); /* Corrected to use the defined custom property */
+    
+    font-size: 36px;
+}
+#right-menu-icon-id{
+
+    width: 175px;
+    text-align: right;
+}
+
+.banner-title h1{
+    font-size: 152px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin: 40px 0;
+    
+}
+
+.banner-desc{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin: 40px 0;
+}
+
+
+.banner-profile-container{
+
+
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-primary-color);
+    border-bottom: 1px solid var(--font-primary-color );
+}
+
+.banner-image-container{
+    background-color: var(--font-primary-color);
+    width: fit-content;
+
+
+
+
+}
+.banner-profile-desc{
+
+     display: flex;
+     flex-direction:  column;
+     justify-content: end;
+     font-size: 40px;
+}
+
+#banner-image{
+height: 300px;
+
+
+    
+}
+
+@media only screen and (min-width:200px) and (max-width:576px)
+{
+   .nav{
+    font-size: 16px
+
+    color: red;
+   } 
+}
