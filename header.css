@@ -62,6 +62,8 @@
 .work-icon-container{
 
     display: flex;
+    gap: 20px;
+    padding: 30px ;
 }
 .check-icon{
     width: 60px;
@@ -80,6 +82,8 @@
 
 #banner-image{
 height: 300px;
+
+
 
 
     
