@@ -1,4 +1,80 @@
+.section-title{
+
+    padding: 20PX;
+    font-size: 40px;
+}
+
 .projects{
 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project img{
+ width: 100%;
+}
+.check-all-project{
+ display: flex;
+ justify-content: center;
+ 
+
+ 
+
+}
+
+.check-all-project button{
+    padding: 15px 30px;
+    background-color: var(--background-color);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white;
+    font-size: 40px;
+}
+
+.tag {
+
+    background-color:var(--font-primary-color);
+    width: fit-content;
+    padding: 17px 30px;
+    border-radius: 50px;
+    margin: 30px 0px;
+
+}
+.tag h1{
+    color: black;
+}
+
+.date{
+
     display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.round-date{
+
+    width:15px ;
+    height: 15px;
+    background-color: blueviolet;
+    border-radius: 100%;
+}
+
+.round-name{
+
+    width:15px ;
+    height: 15px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+
+@media only screen and (min-width:200px) and(max-width:576px) {
+
+    .projects{
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 }
