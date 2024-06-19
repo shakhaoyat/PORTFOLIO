@@ -47,26 +47,34 @@
 }
 
 .date{
-
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.round-date{
+.date-name{
+    display: flex;
+    gap:20px;
+}
 
-    width:15px ;
+.round-date{
+    width: 15px;
     height: 15px;
     background-color: blueviolet;
     border-radius: 100%;
 }
 
 .round-name{
-
-    width:15px ;
+    width: 15px;
     height: 15px;
     background-color: blue;
     border-radius: 100%;
+}
+
+.my-blogs{
+    display: flex;
+    
+    justify-content: space-between;
 }
 
 
@@ -75,6 +83,10 @@
     .projects{
 
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .my-blogs{
+     flex-direction: column;
     }
     
 }
