@@ -97,6 +97,17 @@
     margin-top: 15px;
 }
 
+.left-side-card-top{
+
+    display: flex;
+    width: 65%;
+    background-color: #5E4AF1;
+}
+
+.testi-left-card-top{
+    font-size: 50px;
+}
+
 @media only screen and (min-width:200px) and(max-width:576px) {
 
     .projects{
