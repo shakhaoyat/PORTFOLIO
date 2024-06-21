@@ -101,11 +101,32 @@
 
     display: flex;
     width: 65%;
-    background-color: #5E4AF1;
+    /*background-color: #5E4AF1;*/
+    background-image: linear-gradient(to bottom right,#3e3394,#43224e);
 }
 
 .testi-left-card-top{
     font-size: 50px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.right-side{
+
+    width: 35%;
+    background-color: #16097e;
+    
+}
+
+.testimonial-card{
+
+    display: flex;
+    gap: 10px;
+
+}
+.testi-left-card-desc{
+    margin-top: 15px;
+    padding: 10px;
 }
 
 @media only screen and (min-width:200px) and(max-width:576px) {
