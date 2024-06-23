@@ -134,7 +134,7 @@
 .right-side{
 
     width: 35%;
-    background-color: #16097e;
+    background-image: linear-gradient(to bottom right,#3e3394,#43224e);
     
 }
 
@@ -147,6 +147,8 @@
 .testi-left-card-desc{
     margin-top: 15px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (min-width:200px) and(max-width:576px) {
