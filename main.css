@@ -125,6 +125,7 @@
 .left-side-single-card{
 
     display: flex; 
+    gap: 10px;
     background-image: linear-gradient(to bottom right,#3e3394,#43224e);
    
 
@@ -151,6 +152,12 @@
     flex-direction: column;
 }
 
+.right-side-single-card-img{
+    width: 100%;
+
+
+}
+
 @media only screen and (min-width:200px) and(max-width:576px) {
 
     .projects{
@@ -160,6 +167,14 @@
 
     .my-blogs{
      flex-direction: column;
+    }
+
+    .left-side-single-card{
+
+        flex-direction: column;
+       
+    
+        
     }
     
 }
