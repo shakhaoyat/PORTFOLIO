@@ -97,18 +97,38 @@
     margin-top: 15px;
 }
 
+
+
+
+
+
+
+.testimonial-card{
+
+    display: flex;
+    gap: 10px;
+
+}
+
+
 .left-side-card-top{
 
     display: flex;
+    flex-direction: column;
     width: 65%;
+    gap: 10px;
     /*background-color: #5E4AF1;*/
-    background-image: linear-gradient(to bottom right,#3e3394,#43224e);
+   
+    
 }
 
-.testi-left-card-top{
-    font-size: 50px;
-    margin-top: 30px;
-    padding: 10px;
+.left-side-single-card{
+
+    display: flex; 
+    background-image: linear-gradient(to bottom right,#3e3394,#43224e);
+   
+
+    
 }
 
 .right-side{
@@ -118,12 +138,12 @@
     
 }
 
-.testimonial-card{
-
-    display: flex;
-    gap: 10px;
-
+.testi-left-card-title{
+    font-size: 50px;
+    margin-top: 30px;
+    padding: 10px;
 }
+
 .testi-left-card-desc{
     margin-top: 15px;
     padding: 10px;
