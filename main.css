@@ -169,12 +169,25 @@
      flex-direction: column;
     }
 
-    .left-side-single-card{
+    .testimonial-card{
+        flex-direction: column;
+
+    }
+
+    .left-side-single-card img {
 
         flex-direction: column;
-       
-    
         
+    }
+
+    .left-side-card-top{
+        width:100%;
+    }
+    .right-side{
+        width: 100%;
+
+
+
     }
     
 }
