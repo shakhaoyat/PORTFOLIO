@@ -29,3 +29,7 @@ body{
     padding-top: ;
     padding-bottom: ;
 }
+
+.bg-gradient{
+    background-image: linear-gradient(to bottom right,#3e3394,#43224e);
+}
