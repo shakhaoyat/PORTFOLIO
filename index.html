@@ -466,12 +466,12 @@
       <div class="from-title">
          <h1 id="from-title">// wanna work together?</h1>
       </div>
-      <form class="form">
-         <input class="input" type="text" placeholder="YOUR NAME">
-         <input class="input" type="email" placeholder="YOUR EMAIL">
-         <input style="margin-top: 70px;" class="input" type="text" placeholder="YOUR MASSAGE">
+      <form onsubmit="handleContact(event)" class="form">
+         <input class="input" type="text" name="name" placeholder="YOUR NAME">
+         <input class="input" type="email" name="email" placeholder="YOUR EMAIL">
+         <input style="margin-top: 70px;" class="input" type="text" name="message" placeholder="YOUR MASSAGE">
 
-         <button id="send-btn">SEND</button>
+         <button type="submit" id="send-btn">SEND</button>
       </form>
 
    </div>
